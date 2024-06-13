@@ -155,7 +155,7 @@ then
     HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}"
   else
     # On Intel macOS, this script installs to /usr/local only
-    HOMEBREW_PREFIX="/usr/local"
+    HOMEBREW_PREFIX="/opt/homebrew"
     HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}/Homebrew"
   fi
   HOMEBREW_CACHE="${HOME}/Library/Caches/Homebrew"
